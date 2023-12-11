@@ -34,34 +34,50 @@
     ul {
         font-size: 1.8rem;
         display: flex;
-        /*justify-content: space-evenly;*/
+        justify-content: space-evenly;
         flex-direction: row;
         list-style: none;
+        align items: flex-start;
     }
     h2 {
-      font-size: 1.2rem;
-      line-height: 1.05;
+      font-size: 1.1rem;
+      line-height: 0.95;
+      display: inline;
+      text-align: center;
+      width: 100px;
+      padding: 2px;
+      border-radius: 2px;
 }
 
     section {
           display: flex;
           flex-flow: column;
     }
-    ul {
-      display: flex;
-      flex-flow: row;
-      gap: 10px 36px;
-}
+  
 .real_turtles {
       flex-flow: column;
 }
-.box1 {
+.questioncard {
       display: flex;
-      border: 2px solid rgb(5, 2, 21);
-      border-radius: 2%;
+      color: black;
+      border: 10px dotted rgb(5, 2, 21);
+      border-radius: 5px;
       flex-flow: column;
       padding: 5px;
-      background-color: darkblue;
+      background-color: lightgray;
+}
+.question {
+      color: black;
+      flex-flow: column;
+      padding: 5px;
+      background-color: lightgray;
+}
+.answer {
+      color: black;
+      display: hidden;
+      flex-flow: column;
+      padding: 5px;
+      background-color: lightgray;
 }
 
 .smaller {
