@@ -61,9 +61,9 @@
       line-height: 1.2;
       /* padding: top -30px; */
 }
-.bookmark {
+.bookmark{
       display: flex;
-      position: relative;
+      position: absolute;
       top: 12px;
       right: 12px;
       font-size: 3rem;
@@ -75,9 +75,34 @@
       z-index: 1;
 }
 
+.shape {
+      /* display: flex; */
+      border: 2px solid red;
+      width: 150 px;
+      height: 225 px;
+      clip-path: polygon(
+            0 0,
+            100% 0%,
+      100% 100%,
+      50% 70%,
+      0% 100%,
+      0% 0%);
+      position: absolute;
+      top: -30px;
+      right: 12px;
+      font-size: 4rem;
+     
+      color: black;
+      padding: 5px;   
+      background-color: orange;
+      z-index: 2;
+}
+
+
+
 .questioncard {
       display: flex;
-      position: relativ;
+      position: relative;
       width: 80 %;
       color: black;
       border: 15px dashed black;
