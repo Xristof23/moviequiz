@@ -14,14 +14,7 @@
           text-decoration: underline;
       }
 
-    nav {
-          width: 90%;
-          display: flex;
-          /*justify-content: space-evenly;*/
-          flex-direction: row;
-          align items: flex-start;
-          gap: 10px 36px;
-    }
+    
 
     h1 {
           font-size: 1.8rem;
@@ -32,6 +25,12 @@
           line-height: 1.2;
     }
 
+    .smaller {
+      font-size: 0.5 rem;
+      text-align: center;
+      text-align: ;       
+      background-color: black;
+}
     ul {
         font-size: 1.8rem;
         display: flex;
@@ -98,8 +97,6 @@
       z-index: 2;
 }
 
-
-
 .questioncard {
       display: flex;
       position: relative;
@@ -125,11 +122,40 @@
       background-color: lightgray;
 }
 
-.smaller {
-      font-size: 0.5 rem;
-      text-align: center;
-      text-align: ;       
-      background-color: black;
+footer {
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
+      padding: 5px;
+      color: orange;
+      background-color: rgb(12, 11, 89);
+      display: flex;
+      /*justify-content: space-evenly;*/
+      flex-direction: column;
+      align items: flex-start;
+      z-index: 2;
+}
+
+
+nav {
+      width: 90%;
+      color: orange;
+      background-color: rgb(12, 11, 89);
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      align items: flex-start;
+      gap: 10px 36px;
+    
+}
+
+
+.copyright {
+      flex-direction: column;
+      align-self: last baseline;
+      font-size: 0.7rem;
+      background-color: rgb(12, 11, 89);
+      padding: 5px 20px 0 5px;
 }
 
 .contact {
