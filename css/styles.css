@@ -73,7 +73,30 @@
       background-color: lightgray;
       z-index: 1;
 }
-
+.shape1 {
+      /* display: flex; */
+      border: 2px solid red;
+      /* width: 50 px; */
+      height: 225 px;
+      clip-path: polygon(
+            0 0,
+            100% 0%,
+      100% 100%,
+      50% 70%,
+      0% 100%,
+      0% 0%);
+      position: absolute;
+      top: -30px;
+      right: 12px;
+      font-size: 2rem;
+      writing-mode: vertical-lr;
+      text-orientation: upright; 
+      ;
+      color: black;
+      padding: 5px;   
+      background-color: orange;
+      z-index: 2;
+}
 .shape {
       /* display: flex; */
       border: 2px solid red;
